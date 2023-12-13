@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Square', sans-serif;
+    background-color: #8D3554;
+}
+
+header {
+    background-color: #420319;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    background-color: #420319;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.topicos {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.topicos li {
+    padding-left: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    display: flex;
+}
+
+.topicos a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.topicos a:hover {
+    transition: 400ms;
+    cursor: pointer;
+    font-size: 21px;
+    color: #ff5454;
+}
+
+h1.titulo {
+    padding-bottom: 10px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#paineis {
+    display: flex;
+    justify-content:center;
+    overflow: hidden;
+}
+
+.principal {
+    background-color: white;
+    border: 3px solid #282828;
+    padding: 30px;
+    padding-top: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 400px;
+    width: 200px;
+}
+
+.secundaria {
+    background-color: white;
+    border: 3px solid #282828;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 50px;
+    border-radius: 20px;
+    height: min-content;
+    width: 200px;
+}
+
+#personagens {
+    display: flex;
+    justify-content: center;
+}
+
+
+.quadro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.caixa {
+    padding: 15px;
+    margin: 50px;
+    height: min-content;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto img {
+    width: 190px;
+    height: min-content;
+}
+
+.caixa p {
+    font-size: 20px;
+}
+
+.caixa h1 {
+    font-size: 50px;
+}
+
+.hist {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hist h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.hist p {
+    color: #555;
+    line-height: 1.5;
+}
+.hln {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
